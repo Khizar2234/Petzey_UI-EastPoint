@@ -3,7 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Alert } from 'selenium-webdriver';
 import { AddVetService } from '../../services/add-vet.service';
 import { vetDetails } from '../../models/vet-details';
-
+// this is new line has been added 
 @Component({
   selector: 'app-doctors',
   templateUrl: './doctors.component.html',
