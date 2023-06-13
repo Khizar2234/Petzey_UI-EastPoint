@@ -9,6 +9,8 @@ WORKDIR /app
 #copy the react app to the container
 COPY . /app/
 
+
+
 #prepare the container for building react
 
 RUN npm install
